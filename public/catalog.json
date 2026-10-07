@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "observed_at": "2026-10-07T13:37:00.020425+00:00",
-  "expires_at": "2026-10-09T13:37:00.020425+00:00",
+  "observed_at": "2026-10-07T23:11:32.441098+00:00",
+  "expires_at": "2026-10-09T23:11:32.441098+00:00",
   "sources": [
     {
       "url": "https://opencode.ai/docs/go/",
-      "sha256": "6f96e0c947b42c7db41abb51aa28f7e35c8dd528517fd7be4b9cd14f5fab95ac"
+      "sha256": "b1b8d8d8d756faa470b3f978ab02f9b2d6803aa33cffca40198e92a7b290078e"
     }
   ],
   "plans": [
@@ -438,6 +438,28 @@
             "output": 1.8,
             "cache_read": 0.04,
             "cache_write": 0.5
+          },
+          "monthly_allowance_usd": 15.0,
+          "unlimited_promotion": false
+        },
+        {
+          "name": "Claude Haiku 5.5 (\u2264 100K tokens)",
+          "token_prices_usd_per_million": {
+            "input": 0.1,
+            "output": 0.5,
+            "cache_read": 0.01,
+            "cache_write": 0.125
+          },
+          "monthly_allowance_usd": 15.0,
+          "unlimited_promotion": false
+        },
+        {
+          "name": "Claude Haiku 5.5 (> 100K tokens)",
+          "token_prices_usd_per_million": {
+            "input": 0.5,
+            "output": 2.5,
+            "cache_read": 0.05,
+            "cache_write": 0.625
           },
           "monthly_allowance_usd": 15.0,
           "unlimited_promotion": false
@@ -880,6 +902,28 @@
             "output": 1.8,
             "cache_read": 0.04,
             "cache_write": 0.5
+          },
+          "monthly_allowance_usd": 60.0,
+          "unlimited_promotion": false
+        },
+        {
+          "name": "Claude Haiku 5.5 (\u2264 100K tokens)",
+          "token_prices_usd_per_million": {
+            "input": 0.1,
+            "output": 0.5,
+            "cache_read": 0.01,
+            "cache_write": 0.125
+          },
+          "monthly_allowance_usd": 60.0,
+          "unlimited_promotion": false
+        },
+        {
+          "name": "Claude Haiku 5.5 (> 100K tokens)",
+          "token_prices_usd_per_million": {
+            "input": 0.5,
+            "output": 2.5,
+            "cache_read": 0.05,
+            "cache_write": 0.625
           },
           "monthly_allowance_usd": 60.0,
           "unlimited_promotion": false

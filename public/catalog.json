@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "observed_at": "2026-10-08T13:43:21.444990+00:00",
-  "expires_at": "2026-10-10T13:43:21.444990+00:00",
+  "observed_at": "2026-10-08T23:27:07.714521+00:00",
+  "expires_at": "2026-10-10T23:27:07.714521+00:00",
   "sources": [
     {
       "url": "https://opencode.ai/docs/go/",
-      "sha256": "c7b4a81c8eea4c7fa6c45d03276837cab7311bbc5f26f9dc6fce571122176bb3"
+      "sha256": "f76766658a990c7a8050572bc69f43fcbca605b45e0f6fbe25a86ab186b1a297"
     }
   ],
   "plans": [
@@ -92,6 +92,17 @@
         },
         {
           "name": "LongCat 2.5 Preview Free",
+          "token_prices_usd_per_million": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": null
+          },
+          "monthly_allowance_usd": null,
+          "unlimited_promotion": true
+        },
+        {
+          "name": "Step 5 Preview Free",
           "token_prices_usd_per_million": {
             "input": 0,
             "output": 0,
@@ -556,6 +567,17 @@
         },
         {
           "name": "LongCat 2.5 Preview Free",
+          "token_prices_usd_per_million": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": null
+          },
+          "monthly_allowance_usd": null,
+          "unlimited_promotion": true
+        },
+        {
+          "name": "Step 5 Preview Free",
           "token_prices_usd_per_million": {
             "input": 0,
             "output": 0,

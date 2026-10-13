@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "observed_at": "2026-10-13T14:23:35.137219+00:00",
-  "expires_at": "2026-10-15T14:23:35.137219+00:00",
+  "observed_at": "2026-10-13T22:55:18.049796+00:00",
+  "expires_at": "2026-10-15T22:55:18.049796+00:00",
   "sources": [
     {
       "url": "https://opencode.ai/docs/go/",
-      "sha256": "0587eb164d4d4c7a40a1bbffbfe3a69664ebec4784d2b03387712fb2cb6cd75a"
+      "sha256": "ff512a2fa77488fb953af13155fd77affebd330cc64de3749a9ac49edfa91694"
     }
   ],
   "plans": [
@@ -103,6 +103,17 @@
         },
         {
           "name": "Step 5 Preview Free",
+          "token_prices_usd_per_million": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": null
+          },
+          "monthly_allowance_usd": null,
+          "unlimited_promotion": true
+        },
+        {
+          "name": "Cat Jam Free",
           "token_prices_usd_per_million": {
             "input": 0,
             "output": 0,
@@ -578,6 +589,17 @@
         },
         {
           "name": "Step 5 Preview Free",
+          "token_prices_usd_per_million": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": null
+          },
+          "monthly_allowance_usd": null,
+          "unlimited_promotion": true
+        },
+        {
+          "name": "Cat Jam Free",
           "token_prices_usd_per_million": {
             "input": 0,
             "output": 0,

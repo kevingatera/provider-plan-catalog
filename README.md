@@ -13,6 +13,16 @@ times, separate plan budgets, token prices and window fractions. Consumers must
 reject expired data. Request estimates are excluded: they depend on a workload.
 Promotional unlimited entries are marked explicitly and still expire.
 
+Each model price row keeps its label as published in `name`. Tier and peak splits
+(for example `Qwen3.7 Plus (> 256K tokens)` or `DeepSeek V4.1 Flash (Peak)`) are
+also split into `base_name` and `variant`, so one model can have several price
+rows; `variant` is `null` when the label has no split. `monthly_allowance_usd` is
+the allowance in effect now. During a limited-time promotion the page strikes
+through the standard allowance, which is kept in `base_monthly_allowance_usd`,
+and `limited_time_multiplier` holds the promoted multiplier. Both are `null`
+otherwise. The parser checks that the promoted allowance equals the standard
+allowance times the multiplier, and fails on any other promotion label.
+
 CI refreshes the public documentation every six hours, validates the result, and
 builds a static image. Unsupported source layouts fail without replacing the last
 catalog. Add new providers as explicit adapters with fixture tests.

@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "observed_at": "2026-10-21T05:01:11.001816+00:00",
-  "expires_at": "2026-10-23T05:01:11.001816+00:00",
+  "observed_at": "2026-10-21T12:02:52.076213+00:00",
+  "expires_at": "2026-10-23T12:02:52.076213+00:00",
   "sources": [
     {
       "url": "https://opencode.ai/docs/go/",
-      "sha256": "f0f43bef81581a5f0dd72f6e967075db6a1f3aa5533339839dabde0708e765f1"
+      "sha256": "2903c059f6d6d7f7e84668ec5aaa783bbf9e816e26301757a9d45da697717ab6"
     }
   ],
   "plans": [
@@ -128,9 +128,9 @@
             "cache_read": 0.1,
             "cache_write": null
           },
-          "monthly_allowance_usd": 60.0,
-          "base_monthly_allowance_usd": 15.0,
-          "limited_time_multiplier": 4,
+          "monthly_allowance_usd": 15.0,
+          "base_monthly_allowance_usd": null,
+          "limited_time_multiplier": null,
           "unlimited_promotion": false
         },
         {
@@ -681,9 +681,9 @@
             "cache_read": 0.1,
             "cache_write": null
           },
-          "monthly_allowance_usd": 240.0,
-          "base_monthly_allowance_usd": 60.0,
-          "limited_time_multiplier": 4,
+          "monthly_allowance_usd": 60.0,
+          "base_monthly_allowance_usd": null,
+          "limited_time_multiplier": null,
           "unlimited_promotion": false
         },
         {

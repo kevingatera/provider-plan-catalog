@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "observed_at": "2026-10-20T21:43:45.431258+00:00",
-  "expires_at": "2026-10-22T21:43:45.431258+00:00",
+  "observed_at": "2026-10-21T05:01:11.001816+00:00",
+  "expires_at": "2026-10-23T05:01:11.001816+00:00",
   "sources": [
     {
       "url": "https://opencode.ai/docs/go/",
-      "sha256": "877ea54eb13ecd3dd2da135cd4ada91f4604d599e1597e70a5a5b95bd2b65824"
+      "sha256": "f0f43bef81581a5f0dd72f6e967075db6a1f3aa5533339839dabde0708e765f1"
     }
   ],
   "plans": [

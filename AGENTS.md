@@ -10,3 +10,7 @@ publishing. Parsers must fail on unsupported document layouts and preserve the
 previous catalog on failure. Publish only numerical plan facts and model names,
 with source URL, observation time, expiry and content hash. Build images in CI;
 the homelab host runs prebuilt images.
+
+## Working style
+
+Investigate, decide, act, and report in the same turn; do not leave an actionable open item for the user. Ask only for destructive, irreversible, costly, credential-bound, or genuinely ambiguous actions.
